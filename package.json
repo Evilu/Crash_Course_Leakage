@@ -1,0 +1,19 @@
+{
+  "name": "leak-lab-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "leaky": "node --inspect=127.0.0.1:8080 ./node_modules/.bin/vite-node src/leaky.ts",
+    "fixed": "node --inspect=127.0.0.1:8080 ./node_modules/.bin/vite-node src/fixed.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-vite": "^0.0.0-alpha.0",
+    "vite-node": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  }
+}
